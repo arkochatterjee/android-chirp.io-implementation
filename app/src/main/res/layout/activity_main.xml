@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/thetext"
+        android:id="@+id/input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:text="Chirp it !"
         tools:ignore="HardcodedText"
-        android:layout_below="@+id/thetext"
+
+        android:layout_below="@+id/input"
         android:layout_centerHorizontal="true"
         />
 
@@ -32,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Chirp Recieved will  be shown here"
-        android:id="@+id/recieved"
+        android:id="@+id/msg"
         android:layout_below="@id/sendbtn"
         android:layout_centerHorizontal="true"
         android:padding="12dp"
